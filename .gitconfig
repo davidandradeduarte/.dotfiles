@@ -16,7 +16,7 @@
 	cb = checkout -b
 	fp = !git fetch && git pull --no-rebase
 	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
-	dot = !git --git-dir=$HOME/.dotfiles --work-tree=$HOME
+	# dot = !git --git-dir=$HOME/.dotfiles --work-tree=$HOME
 [color "status"]
 	added = green bold
 	changed = yellow bold

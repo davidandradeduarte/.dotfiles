@@ -28,7 +28,7 @@ alias kc="kubectx"
 alias kn="kubens"
 alias watch="watch "
 alias lg="lazygit"
-alias lgd="lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+alias dot="GIT_WORK_TREE=~ GIT_DIR=$HOME/.dotfiles"
 alias code="code -a $1"
 alias l="exa -la --group-directories-first"
 

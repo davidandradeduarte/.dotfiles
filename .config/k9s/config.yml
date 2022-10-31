@@ -1,0 +1,49 @@
+k9s:
+  refreshRate: 2
+  maxConnRetry: 5
+  enableMouse: false
+  headless: false
+  logoless: false
+  crumbsless: false
+  readOnly: false
+  noExitOnCtrlC: false
+  noIcons: false
+  logger:
+    tail: 100
+    buffer: 5000
+    sinceSeconds: 60
+    fullScreenLogs: false
+    textWrap: false
+    showTime: false
+  currentContext: aks-mapleleaf-stag-ue
+  currentCluster: aks-mapleleaf-stag-ue
+  clusters:
+    aks-mapleleaf-stag-ue:
+      namespace:
+        active: all
+        lockFavorites: false
+        favorites:
+        - core
+        - data
+        - default
+      view:
+        active: pods
+      featureGates:
+        nodeShell: false
+      shellPod:
+        image: busybox:1.35.0
+        command: []
+        args: []
+        namespace: default
+        limits:
+          cpu: 100m
+          memory: 100Mi
+      portForwardAddress: localhost
+  thresholds:
+    cpu:
+      critical: 90
+      warn: 70
+    memory:
+      critical: 90
+      warn: 70
+  screenDumpDir: /var/folders/2k/vgspr9xn53z6ft1rb6c9k71h0000gn/T/k9s-screens-david

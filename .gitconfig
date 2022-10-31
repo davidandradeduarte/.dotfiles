@@ -1,0 +1,27 @@
+[user]
+	name = David Duarte
+	email = davidandradeduarte@gmail.com
+	username = davidandradeduarte
+[includeIf "gitdir:~/source/dev.azure.com/anova"]
+  path = ~/.gitconfig-anova
+[core]
+	editor = nvim
+[credential]
+	helper = osxkeychain
+[init]
+	defaultBranch = main
+[alias]
+	ss = status -s
+	co = checkout
+	cb = checkout -b
+	fp = !git fetch && git pull --no-rebase
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+	dot = !git --git-dir=$HOME/.dotfiles --work-tree=$HOME
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+
+# Go modules
+[url "git@ssh.dev.azure.com:v3/anovateam/"]
+  insteadOf = https://dev.azure.com/anovateam/

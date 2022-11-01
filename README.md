@@ -6,5 +6,3 @@
 # Firefox
 
 ![firefox](.config/dotfiles/assets/firefox.png)
-
-https://github.com/MrOtherGuy/firefox-csshacks

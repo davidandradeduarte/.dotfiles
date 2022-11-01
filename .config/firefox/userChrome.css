@@ -2,7 +2,6 @@
 @import url(chrome/tabs_fill_available_width.css);
 @import url(chrome/tab_close_button_always_on_hover.css);
 @import url(chrome/autohide_bookmarks_and_main_toolbars.css);
-@import url(chrome/privatemode_indicator_as_menu_button.css);
 @import url(chrome/pinned_tabs_on_right.css);
 /* @import url(chrome/shrinking_pinned_tabs.css); */
 @import url(chrome/centered_tab_label.css);

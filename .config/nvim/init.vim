@@ -1,1 +1,25 @@
 set rtp+=/opt/homebrew/opt/fzf
+set number
+set linebreak
+set linebreak
+set textwidth=100
+set showmatch
+set visualbell
+set hlsearch
+set smartcase
+set ignorecase
+set incsearch
+set autoindent
+set shiftwidth=4
+set smartindent
+set smarttab
+set softtabstop=4
+set ruler
+set undolevels=1000
+set backspace=indent,eol,start
+set background=dark
+set mouse=a
+highlight LineNr ctermfg=grey
+filetype on
+filetype plugin on
+filetype indent on

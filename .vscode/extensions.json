@@ -1,0 +1,14 @@
+{
+    "extensions": [
+        "teabyii.ayu",
+        "iocave.customize-ui",
+        "usernamehw.errorlens",
+        "GitHub.copilot",
+        "golang.go",
+        "iocave.monkey-patch",
+        "groogle.termin-all-or-nothing",
+        "ms-dotnettools.csharp",
+        "donjayamanne.githistory",
+        "vscodevim.vim"
+    ]
+}

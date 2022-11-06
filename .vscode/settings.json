@@ -1,5 +1,6 @@
 {
     "workbench.editor.untitled.hint": "hidden",
+    "editor.cursorStyle": "block",
     "telemetry.telemetryLevel": "off",
     "security.workspace.trust.banner": "never",
     "security.workspace.trust.enabled": false,
@@ -12,6 +13,7 @@
     "editor.rulers": [
         140
     ],
+    // "tab."
     "editor.overviewRulerBorder": true,
     "window.nativeFullScreen": false,
     "editor.tabSize": 4,
@@ -112,6 +114,8 @@
     //     // "terminal.background" : "#1E2127"
     // },
     "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#ffaa3383",
+        "editor.selectionHighlightBackground": "#ffaa3325",
         "editor.background": "#101010",
         "activityBar.background": "#000000c4",
         "terminal.background": "#101010",
@@ -121,25 +125,30 @@
         "titleBar.activeBackground": "#000000",
         "editorGroupHeader.tabsBackground": "#000000",
         "editorGroupHeader.noTabsBackground": "#000000",
+        "list.activeSelectionBackground": "#e1ad6588",
+        "list.inactiveSelectionBackground": "#e1ad658a",
+        "list.activeSelectionForeground": "#ffffff",
+        "list.inactiveSelectionForeground": "#ffffff",
         "tab.activeBorderTop": "#ffaa33",
         "tab.border": "#000000",
         "tab.inactiveBackground": "#000000",
         "statusBar.noFolderBackground": "#000000c4",
         "editorLineNumber.activeForeground": "#ffaa33",
         "gitDecoration.modifiedResourceForeground": "#f2d601",
-        "editorLineNumber.foreground": "#222222",
+        "editorLineNumber.foreground": "#3f3f3f",
         "editorRuler.foreground": "#ffaa3326",
         "statusBar.debuggingBackground": "#000000c4",
         "statusBar.debuggingForeground": "#ffaa33",
         // "statusBar.foreground": "#222222",
         "editor.findMatchBackground": "#101010",
-        "editor.findMatchBorder": "#ffaa3w3",
+        "editor.findMatchBorder": "#ffaa33",
         "editor.findMatchHighlightBackground": "#101010",
         "editor.findMatchHighlightBorder": "#ffffff",
         "searchEditor.findMatchBackground": "#101010",
         "searchEditor.findMatchBorder": "#ffffff",
         "editorInlayHint.background": "#101010",
-        "editorInlayHint.foreground": "#797979"
+        "editorInlayHint.foreground": "#797979",
+        "foreground": "#ffffff"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -217,7 +226,6 @@
         "plaintext": false,
         "markdown": false
     },
-    "workbench.activityBar.visible": false,
     "terminal.integrated.environmentChangesIndicator": "off",
     "editor.formatOnSave": true,
     "editor.suggestSelection": "first",
@@ -272,38 +280,34 @@
     "terminal.integrated.enablePersistentSessions": false,
     "workbench.editor.restoreViewState": false,
     "window.newWindowDimensions": "maximized",
-    "window.zoomLevel": 1,
     "workbench.startupEditor": "none",
-    "workbench.editor.showTabs": false,
+    "workbench.editor.showTabs": true,
     "workbench.editor.tabSizing": "shrink",
-    "terminal.integrated.tabs.enabled": false,
-    "editor.inlayHints.padding": true,
-    "go.inlayHints.parameterNames": true,
-    "go.inlayHints.assignVariableTypes": true,
-    "go.inlayHints.compositeLiteralFields": true,
-    "go.inlayHints.compositeLiteralTypes": true,
-    "go.inlayHints.constantValues": true,
-    "go.inlayHints.functionTypeParameters": true,
-    "go.inlayHints.rangeVariableTypes": true,
-    "csharp.inlayHints.parameters.enabled": true,
-    "csharp.inlayHints.parameters.forIndexerParameters": true,
-    "csharp.inlayHints.parameters.forLiteralParameters": true,
-    "csharp.inlayHints.parameters.forOtherParameters": true,
-    "csharp.inlayHints.parameters.forObjectCreationParameters": true,
-    "csharp.inlayHints.parameters.suppressForParametersThatDifferOnlyBySuffix": true,
-    "csharp.inlayHints.parameters.suppressForParametersThatMatchArgumentName": true,
-    "csharp.inlayHints.parameters.suppressForParametersThatMatchMethodIntent": true,
-    "csharp.inlayHints.types.enabled": true,
-    "csharp.inlayHints.types.forImplicitVariableTypes": true,
-    "csharp.inlayHints.types.forImplicitObjectCreation": true,
-    "csharp.inlayHints.types.forLambdaParameterTypes": true,
+    // "editor.inlayHints.padding": true,
+    // "go.inlayHints.parameterNames": true,
+    // "go.inlayHints.assignVariableTypes": true,
+    // "go.inlayHints.compositeLiteralFields": true,
+    // "go.inlayHints.compositeLiteralTypes": true,
+    // "go.inlayHints.constantValues": true,
+    // "go.inlayHints.functionTypeParameters": true,
+    // "go.inlayHints.rangeVariableTypes": true,
+    // "csharp.inlayHints.parameters.enabled": true,
+    // "csharp.inlayHints.parameters.forIndexerParameters": true,
+    // "csharp.inlayHints.parameters.forLiteralParameters": true,
+    // "csharp.inlayHints.parameters.forOtherParameters": true,
+    // "csharp.inlayHints.parameters.forObjectCreationParameters": true,
+    // "csharp.inlayHints.parameters.suppressForParametersThatDifferOnlyBySuffix": true,
+    // "csharp.inlayHints.parameters.suppressForParametersThatMatchArgumentName": true,
+    // "csharp.inlayHints.parameters.suppressForParametersThatMatchMethodIntent": true,
+    // "csharp.inlayHints.types.enabled": true,
+    // "csharp.inlayHints.types.forImplicitVariableTypes": true,
+    // "csharp.inlayHints.types.forImplicitObjectCreation": true,
+    // "csharp.inlayHints.types.forLambdaParameterTypes": true,
     "editor.guides.bracketPairs": "active",
     "editor.bracketPairColorization.enabled": false,
-    "workbench.colorTheme": "Ayu Dark Bordered",
-    "editor.guides.highlightActiveBracketPair": true, // todo: not sure if better on or off
+    "editor.guides.highlightActiveBracketPair": false, // todo: not sure if better on or off
     "workbench.tips.enabled": false,
     "diffEditor.renderSideBySide": false,
-    "workbench.sideBar.location": "right",
     "editor.renderWhitespace": "none",
     "editor.inlayHints.fontSize": 9,
     "vim.searchMatchColor": "#ffaa33",
@@ -315,4 +319,31 @@
     "gitHistory.showEditorTitleMenuBarIcons": false,
     "git.terminalAuthentication": false,
     "github.gitAuthentication": false,
+    "explorer.confirmDelete": false, // this is a workaround because we can't change tab font size
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    // "window.zoomLevel": 1,
+    "settings.cycle": [
+        {
+            "id": "lineNumbers",
+            "values": [
+                {
+                    "editor.lineNumbers": "off",
+                    "editor.folding": false,
+                    "editor.glyphMargin": false
+                },
+                {
+                    "editor.lineNumbers": "on",
+                    // "editor.folding": true,
+                    // "editor.glyphMargin": true
+                }
+            ]
+        }
+    ],
+    "editor.lineNumbers": "off",
+    "breadcrumbs.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Ayu Dark Bordered",
+    "workbench.activityBar.visible": false,
+    // "workbench.editor.labelFormat": "medium"
 }

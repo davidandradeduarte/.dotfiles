@@ -19,6 +19,7 @@ set -U XDG_CONFIG_HOME ~/.config
 set -Ux FZF_COMPLETION_TRIGGER '**'
 set -x GOPATH (go env GOPATH)
 set -x PATH $PATH (go env GOPATH)/bin
+set -Ua fish_user_paths $HOME/.cargo/bin
 
 # TODO: consider using abbreviations
 alias duck="fuck"

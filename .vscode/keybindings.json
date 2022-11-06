@@ -269,5 +269,39 @@
     {
         "key": "cmd+\\",
         "command": "-workbench.action.splitEditor"
+    },
+    // {
+    //     "key": "F4",
+    //     "command": "toggle",
+    //     "when": "editorTextFocus",
+    //     "args": {
+    //         "id": "zen", // must be unique
+    //         "overrideWorkspaceSettings": true,
+    //         "values": [
+    //             {
+    //                 "workbench.colorTheme": "Default Dark+"
+    //             },
+    //             {
+    //                 "workbench.colorTheme": "Default Light+"
+    //             }
+    //         ]
+    //     }
+    // }
+    {
+        "key": "shift+cmd+l",
+        "command": "settings.cycle.lineNumbers",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "workbench.action.createTerminalEditor"
+    },
+    {
+        "key": "alt+\\",
+        "command": "workbench.action.createTerminalEditorSide"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "workbench.action.toggleAuxiliaryBar"
     }
 ]
